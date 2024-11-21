@@ -1,0 +1,160 @@
+/* styles.css */
+
+/* Add a background image or color to the entire page */
+body {
+    background-color: #f0f0f0;  /* Light gray background color */
+    background-image: url('https://www.indiewire.com/wp-content/uploads/2017/10/matrix-code.jpg'); /* Optional background image */
+    background-size: cover;
+    background-position: center center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;      /* Centers content vertically */
+    min-height: 100vh;        /* Full viewport height */
+}
+
+/* Wrapper to contain all content and center it */
+.wrapper {
+    width: 100%;
+    max-width: 1200px; /* Max width for content */
+    margin: 0 auto;    /* Centers the content horizontally */
+    background-color: white;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Styling for the link in the upper left corner */
+.top-link {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.top-link:hover {
+    background-color: #ddd;
+}
+
+/* Styling for header elements */
+#header {
+    background-color: #ffffff;  /* Blue background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #0056b3;  /* Darker blue border */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 0;
+}
+
+/* Styling for nav section */
+#nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+#nav nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+#nav nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#nav nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#nav nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for <h2> elements */
+h2 {
+    background-color: #28a745;  /* Green background */
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 2px solid #218838;  /* Darker green border */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Styling for images */
+img {
+    display: block;
+    margin: 20px auto;  /* Centering images and adding margin */
+    border-radius: 8px;
+    max-width: 100%;  /* Ensure image fits within the page */
+}
+
+/* Styling for the figure and figcaption */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+}
+
+/* Styling for the progress bar */
+progress {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+}
+
+/* Add a background color and rounded borders to paragraph elements */
+p {
+    background-color: #ffffff;  /* White background for paragraphs */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #ccc;  /* Light gray border */
+}
+
+/* Adding margin and padding to sections */
+main section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Styling for unordered lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
